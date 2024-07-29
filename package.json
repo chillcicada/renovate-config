@@ -1,0 +1,20 @@
+{
+  "name": "@chillcicada/renovate-config",
+  "version": "0.0.0",
+  "description": "Common renovate config for ChillCicada",
+  "author": {
+    "name": "ChillCicada",
+    "email": "2210227279@qq.com"
+  },
+  "repository": "chillcicada/renovate-config",
+  "license": "MIT",
+  "files": [
+    "default.json"
+  ],
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "dependencies": {
+    "renovate": "38.9.3"
+  }
+}
