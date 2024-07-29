@@ -2,6 +2,7 @@
   "name": "@chillcicada/renovate-config",
   "version": "0.0.0",
   "description": "Common renovate config for ChillCicada",
+  "private": true,
   "author": {
     "name": "ChillCicada",
     "email": "2210227279@qq.com"
