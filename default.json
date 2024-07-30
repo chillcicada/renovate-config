@@ -5,9 +5,12 @@
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
+  "timezone": "Asia/Shanghai",
   "meteor": {
     "enabled": true
   },
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
@@ -33,7 +36,10 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "automerge": false
+      "automerge": false,
+      "schedule": [
+        "after 4am and before 5am"
+      ]
     }
   ]
 }
