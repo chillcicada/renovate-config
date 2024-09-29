@@ -41,5 +41,11 @@
         "after 4am and before 5am"
       ]
     }
-  ]
+  ],
+  "pyenv": {
+    "fileMatch": [
+      "(^|/)\\.python-version$"
+    ],
+    "pinDigests": true
+  }
 }
