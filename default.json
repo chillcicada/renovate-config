@@ -43,9 +43,6 @@
     }
   ],
   "pyenv": {
-    "fileMatch": [
-      "(^|/)\\.python-version$"
-    ],
-    "pinDigests": true
+    "enabled": false
   }
 }
