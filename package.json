@@ -16,6 +16,6 @@
     "test": "renovate-config-validator ./default.json"
   },
   "dependencies": {
-    "renovate": "41.16.1"
+    "renovate": "41.173.1"
   }
 }
